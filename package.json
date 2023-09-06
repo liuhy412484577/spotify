@@ -1,7 +1,7 @@
 {
   "name": "react-native-spotify",
   "version": "1.0.0",
-  "description": "## Getting started",
+  "description": "react-native module with spotify sdk for android and iOS",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,10 +12,18 @@
     "compile": "tsc -d"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "spotify-remote",
+    "spotify",
+    "auth",
+    "iOS",
+    "android"
   ],
-  "author": "",
+  "author": "liuhy412484577",
   "license": "ISC",
+  "peerDependencies": {
+    "react-native": ">=0.72.0"
+  },
   "devDependencies": {
     "typescript": "^5.2.2"
   }
