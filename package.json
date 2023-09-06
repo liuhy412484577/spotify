@@ -1,0 +1,22 @@
+{
+  "name": "react-native-spotify",
+  "version": "1.0.0",
+  "description": "## Getting started",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf lib",
+    "compile": "tsc -d"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
