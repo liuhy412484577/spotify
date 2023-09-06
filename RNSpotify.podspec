@@ -11,10 +11,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/liuhy412484577/spotify.git", :tag=> "main" }
   s.source_files = "ios/**/*.{h,m}"
-  # s.vendored_libraries = "ios/source/SpotifyiOS.frameWork"
-  # s.resources    = ['*.bundle', '*.strings']
+  s.vendored_libraries = "ios/source/SpotifyiOS.frameWork"
+
   # s.preserve_path = "ios/lib/SpotifyiOS.framework"
-  # s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/RNSpotify/ios/source"' }
   s.requires_arc = true
 
   s.dependency "React"
